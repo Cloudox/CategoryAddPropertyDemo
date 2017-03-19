@@ -15,6 +15,7 @@
 		B8740DE81E7E73920019369C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8740DE61E7E73920019369C /* LaunchScreen.storyboard */; };
 		B8740DF31E7E73920019369C /* CategoryAddPropertyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8740DF21E7E73920019369C /* CategoryAddPropertyDemoTests.m */; };
 		B8740DFE1E7E73920019369C /* CategoryAddPropertyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8740DFD1E7E73920019369C /* CategoryAddPropertyDemoUITests.m */; };
+		B8740E101E7E74D10019369C /* UINavigationController+Cloudox.m in Sources */ = {isa = PBXBuildFile; fileRef = B8740E0F1E7E74D10019369C /* UINavigationController+Cloudox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B8740DF91E7E73920019369C /* CategoryAddPropertyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryAddPropertyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8740DFD1E7E73920019369C /* CategoryAddPropertyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryAddPropertyDemoUITests.m; sourceTree = "<group>"; };
 		B8740DFF1E7E73920019369C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8740E0E1E7E74D10019369C /* UINavigationController+Cloudox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Cloudox.h"; sourceTree = "<group>"; };
+		B8740E0F1E7E74D10019369C /* UINavigationController+Cloudox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Cloudox.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B8740DDC1E7E73920019369C /* AppDelegate.m */,
 				B8740DDE1E7E73920019369C /* ViewController.h */,
 				B8740DDF1E7E73920019369C /* ViewController.m */,
+				B8740E0E1E7E74D10019369C /* UINavigationController+Cloudox.h */,
+				B8740E0F1E7E74D10019369C /* UINavigationController+Cloudox.m */,
 				B8740DE11E7E73920019369C /* Main.storyboard */,
 				B8740DE41E7E73920019369C /* Assets.xcassets */,
 				B8740DE61E7E73920019369C /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8740E101E7E74D10019369C /* UINavigationController+Cloudox.m in Sources */,
 				B8740DE01E7E73920019369C /* ViewController.m in Sources */,
 				B8740DDD1E7E73920019369C /* AppDelegate.m in Sources */,
 				B8740DDA1E7E73920019369C /* main.m in Sources */,
